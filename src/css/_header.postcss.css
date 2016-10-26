@@ -1,0 +1,242 @@
+
+header{
+
+}
+.main-head{
+  background-color: #1133aa;
+}
+/*top panel*/
+
+.top-panel {
+  border-bottom: 1px solid #cccccc;
+  .wrapper {
+    width: 52%;
+    cursor: pointer;
+    margin-top: 10px;
+    &:hover {
+      .ico-location {
+        background-color: $action;
+        > i {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .ico-location {
+    display: inline-block;
+    > i {
+      text-align: center;
+      font-size: 2.2em;
+      margin-top: 16px;
+      margin-left: 10px;
+      padding: 5px 7px;
+      background-color: rgb(244, 244, 244);
+      border-radius: 50%;
+    }
+  }
+  .body {
+    display: inline-block;
+    margin-left: 20px;
+    
+    vertical-align: top;
+
+    > .title {
+      font-family: Ubuntu-Italic;
+      margin-top: 10px;
+      
+      font-size: 22px;
+      line-height: 32px;
+    }
+    > .change {
+      display: block;
+      margin-top: 7px;
+      margin-left: 0px;
+      font-style: italic;
+      color: rgb(132, 132, 132);
+      font-size: 19px;
+      line-height: 12px;
+      font-family: Ubuntu,Helvetica,Arial,sans-serif;
+    }
+  }
+  .logo-top {
+    font-family: Ubuntu,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    margin-left: 56px;
+    font-size: 46px;
+    line-height: 8rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0em;
+    vertical-align: middle;
+    margin-top:0px;
+
+    > b {
+      color: rgb(239, 136, 41);
+      font-weight: 400;
+    }
+    > span {
+      color: $black;
+      
+
+
+    }
+    &:hover {
+      text-decoration: none;
+      span {
+        color: $action;
+      }
+    }
+  }
+  .wrapper-user { 
+    float: right;
+    margin-top: 34px;
+    margin-right: -20px;
+    width: 51%; 
+
+    .user-body {
+
+      display: inline-block;
+      
+      vertical-align: top;
+      
+      .title {
+
+        font-family: Ubuntu,Helvetica,Arial,sans-serif;
+        cursor: pointer;
+        font-size: 22px;
+        line-height: 20px;
+        
+      }
+
+
+    }
+
+    .avatar {
+      display: inline-block;
+      padding:15px;
+      margin-left: 19px;
+      margin-top: -9px;
+      background-image: url("../images/user_img.jpg");
+      background-position: -1px 0px;
+      border-radius: 50%;
+
+    }
+  }
+
+  .title:hover {
+    color: $action;
+  }
+
+}
+
+/*top menu*/
+
+.menu-panel {
+  position: relative;
+
+  .top-line {
+    
+    ul, li {
+      list-style-type: none;
+      margin: 0;
+    }
+    .sf-menu {
+      position: static;
+      margin: auto;
+      float: none;
+      // display: inline-block;
+
+      text-transform: uppercase;
+    
+      li {
+        white-space: normal;
+        background-color: transparent;
+
+        a {
+
+          line-height: 55px;
+          font-family: Ubuntu,Helvetica,Arial,sans-serif;
+          font-size: 23px;
+          display: inline-block;
+          color: black;
+          border: none;
+          letter-spacing: 0.025em;;
+
+          &:hover {
+            color: $action;
+          }
+
+        }
+      }
+      > .action_item {
+        position: static;
+        background-color: $action;
+        color: #fff;
+        margin-left: 15px;
+        i{
+          font-size: 24px;
+        }
+        > .item_a {
+          color: #fff;
+        }
+      }
+      .li_margin{
+        margin-left: 50px;
+      }
+      .sf-mega {
+
+
+        .category-name{
+          display: inline-block;
+          line-height: 20px;
+          text-transform: none;
+          letter-spacing: 0.014em;
+
+          .category-item-name{
+            h3{
+
+              font-family: Museo_Cyrillic;
+              font-size: 30px;
+
+            }
+            h3:before{
+              content: '';
+              background: url('../images/ico/category/uEA03-fish.svg')no-repeat 0px 0px;;
+              display:inline-block;
+              height:10px;
+              width:10px;
+              background-size:cover;
+            }
+            a{
+              font-size: 20px;
+              padding: 10px 10px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+  .shopping-cart {
+    float: right;
+    line-height: 90px;
+    text-align: right;
+    font-size: 20px;
+    > i {
+      color: $action;
+      margin-right: 10px;
+    }
+    &:hover {
+      cursor: pointer;
+      > span {
+        color: $action;
+      }
+    }
+  }
+  
+  border-top: 1px solid #eee;
+  background-color:#fff;
+}
+
+
+
