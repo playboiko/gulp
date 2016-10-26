@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <removed_mapping ext="css" approved="true" type="CSS" />
+      <mapping ext="ttf" type="Native" />
+      <mapping ext="css" type="PLAIN_TEXT" />
+      <mapping pattern="*.postcss.css" type="SCSS" />
+      <mapping pattern=".css" type="Sass" />
+    </extensionMap>
+  </component>
+</application>
